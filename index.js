@@ -37,7 +37,7 @@ client.on(`ready`, () => {
       });
       
    
-     client.user.setActivity(`${PREFIX}help MoNo| ${process.version}`, { type: "LISTENING"});   
+     client.user.setActivity(`${PREFIX}help Remix Bot | ${process.version}`, { type: "LISTENING"});   
            
            
      client.user.setActivity(`${client.guilds.cache.size} | Servers`, { type: "LISTENING"});
@@ -84,9 +84,9 @@ client.on(`message`, async (message) => {
     message.reply(new Discord.MessageEmbed()
                   .setColor("#FC00FF")
                   .setDescription(` 
-Support Server - [Click Me](https://discord.gg/u4CbGW4qTT)
-Bot Link - [Click Me](https://discord.com/oauth2/authorize?client_id=792047204361175091&permissions=1076131920&scope=bot)
-Bot Vote - [Click Me](https://top.gg/bot/792047204361175091)
+Support Server - [Click Me](https://discord.gg/ndKgf3VTY5)
+Bot Link - [Click Me](https://discord.com/api/oauth2/authorize?client_id=917819641554952262&permissions=8&scope=bot)
+Bot Vote - [Click Me]()
 `) 
                   .setTitle(`
 Join a voice channel and \`>play\` a song.
@@ -139,14 +139,14 @@ if(message.content.startsWith(`${prefix}vote`)){
     //define embed
      message.react("<a:setting:813404135181385759>").catch(console.error);
     const embed = new Discord.MessageEmbed()
-    .setDescription("<a:rast:813403866472251399> **[Click here](https://top.gg/bot/792047204361175091/vote) to vote the bot.**")
+    .setDescription("<a:rast:813403866472251399> **[Click here]() to vote the bot.**")
     .setColor("#FC00FF")
     //send the Message
     message.author.send(embed)
   } 
    
 //An suuport announcement for everyone but no one knows so fine ^w^
-  if(message.content.startsWith(`${prefix}social`)){
+  if(message.content.startsWith(`${prefix}socialuuuu`)){
     //define saymsg
     const saymsg = message.content.slice(Number(prefix.length) + 5)
     //define embed
@@ -176,11 +176,11 @@ if(message.content.startsWith(`${prefix}vote`)){
     .setColor("#FC00FF")
     .setDescription (`
 
-<a:rast:813403866472251399> **[Invite](https://discord.com/oauth2/authorize?client_id=792047204361175091&permissions=1076131920&scope=bot)**
+<a:rast:813403866472251399> **[Invite](https://discord.com/api/oauth2/authorize?client_id=917819641554952262&permissions=8&scope=bot)**
 <a:lodaing:813403104384647238>     
-<a:rast:813403866472251399> **[Support](https://discord.gg/geu89kZ7Rt)**
+<a:rast:813403866472251399> **[Support](https://discord.gg/ndKgf3VTY5)**
 <a:lodaing:813403104384647238>  
-<a:rast:813403866472251399> **[Vote](https://top.gg/bot/792047204361175091)**
+<a:rast:813403866472251399> **[Vote]()**
 
 `)
     .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
@@ -202,13 +202,13 @@ if(message.content.startsWith(`${prefix}vote`)){
     .setAuthor("Remix Bot ✨", "https://cdn.discordapp.com/avatars/792047204361175091/c3c061050f56e58aa1f008de8b86dd26.png?size=2048")
     .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
     .setDescription(`
-**[Remix Bot Stats](https://discord.com/oauth2/authorize?client_id=792047204361175091&permissions=1076131920&scope=bot)**
+**[Remix Bot Stats](https://discord.com/api/oauth2/authorize?client_id=917819641554952262&permissions=8&scope=bot)**
 Hey My name is **Remix Bot** and My Work is to play Music
 **Owner Bot :**
-<@637299944939585576>
+<@715564822858825750>
 ●  
 **Name Bot :**
-Remix Bot ✨#9054 
+Remix Bot#1297
 ●
 **Prefix Bot :**
 ${prefix}
@@ -223,7 +223,7 @@ ${client.guilds.cache.size}
 ${client.ws.ping}
 ● 
 **Version :**
-V2
+V12
 `)
 
     //send the Message
@@ -270,7 +270,7 @@ V2
 });
 
 client.on("guildCreate", guild => {
-  let channel = client.channels.cache.get("833427164124282930");
+  let channel = client.channels.cache.get("941069227496968242");
   let embed = new MessageEmbed().setColor("#FC00FF")
   .setAuthor(client.user.username, client.user.avatarURL())
   .setTitle( `✅ Join Server`)
@@ -284,7 +284,7 @@ client.on("guildCreate", guild => {
 });
 
 client.on("guildDelete", guild => {
-  let channel = client.channels.cache.get("833427164124282930");
+  let channel = client.channels.cache.get("941069282735947810");
   let embed = new MessageEmbed()
   .setColor("#FC00FF")
   .setTimestamp()
@@ -469,4 +469,4 @@ function delay(delayInms) {
 }
 
 
-//Bot coded by DarkMan#2021
+//Bot coded by hardikirdish
