@@ -38,7 +38,7 @@ module.exports = {
 
 
 **| Links**
-__**[Support](https://discord.gg/geu89kZ7Rt)**__ **-** __**[Vote]()**__ **-** __**[Invite](https://discord.com/api/oauth2/authorize?client_id=917819641554952262&permissions=8&scope=bott)**__ **-** __**[Website]()**__
+__**[Support](https://discord.gg/geu89kZ7Rt)**__ **-** __**[Vote]()**__ **-** __**[Invite](https://discord.com/api/oauth2/authorize?client_id=790583289454133278&permissions=8&scope=bot)**__ **-** __**[Website]()**__
 `)
    helpEmbed
    message.react("✅")
