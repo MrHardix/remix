@@ -6,7 +6,7 @@ const db = require('quick.db');
 const { TOKEN, PREFIX, AVATARURL, BOTNAME, } = require(`./config.json`);
 const figlet = require("figlet");
 const client = new Client({ disableMentions: `` , partials: ['MESSAGE', 'CHANNEL', 'REACTION'] });
-client.login('ODMwMjY1NzQyNzk1ODY2MTYy.YHELOg._CFFO0SDBsGPtUgTpc7xuY5W6wE');
+client.login('NzkwNTgzMjg5NDU0MTMzMjc4.X-CuEA.jvXHhQWF_87hV5W8tMVD11loYJk');
 client.commands = new Collection();
 client.setMaxListeners(0);    
 client.prefix = PREFIX;
@@ -85,7 +85,7 @@ client.on(`message`, async (message) => {
                   .setColor("#FC00FF")
                   .setDescription(` 
 Support Server - [Click Me](https://discord.gg/ndKgf3VTY5)
-Bot Link - [Click Me](https://discord.com/api/oauth2/authorize?client_id=917819641554952262&permissions=8&scope=bot)
+Bot Link - [Click Me](https://discord.com/api/oauth2/authorize?client_id=790583289454133278&permissions=8&scope=bot)
 Bot Vote - [Click Me]()
 `) 
                   .setTitle(`
@@ -137,16 +137,16 @@ if(message.content.startsWith(`${prefix}vote`)){
     //define saymsg
     const saymsg = message.content.slice(Number(prefix.length) + 5)
     //define embed
-     message.react("<a:setting:813404135181385759>").catch(console.error);
+     message.react("").catch(console.error);
     const embed = new Discord.MessageEmbed()
-    .setDescription("<a:rast:813403866472251399> **[Click here]() to vote the bot.**")
+    .setDescription("**[Click here]() to vote the bot.**")
     .setColor("#FC00FF")
     //send the Message
     message.author.send(embed)
   } 
    
 //An suuport announcement for everyone but no one knows so fine ^w^
-  if(message.content.startsWith(`${prefix}socialuuuu`)){
+  if(message.content.startsWith(`${prefix}socialuuuu7`)){
     //define saymsg
     const saymsg = message.content.slice(Number(prefix.length) + 5)
     //define embed
@@ -176,11 +176,9 @@ if(message.content.startsWith(`${prefix}vote`)){
     .setColor("#FC00FF")
     .setDescription (`
 
-<a:rast:813403866472251399> **[Invite](https://discord.com/api/oauth2/authorize?client_id=917819641554952262&permissions=8&scope=bot)**
-<a:lodaing:813403104384647238>     
-<a:rast:813403866472251399> **[Support](https://discord.gg/ndKgf3VTY5)**
-<a:lodaing:813403104384647238>  
-<a:rast:813403866472251399> **[Vote]()**
+**[Invite](https://discord.com/api/oauth2/authorize?client_id=790583289454133278&permissions=8&scope=bot)**    
+**[Support](https://discord.gg/ndKgf3VTY5)**  
+**[Vote]()**
 
 `)
     .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
@@ -202,13 +200,13 @@ if(message.content.startsWith(`${prefix}vote`)){
     .setAuthor("Remix Bot ✨", "https://cdn.discordapp.com/avatars/792047204361175091/c3c061050f56e58aa1f008de8b86dd26.png?size=2048")
     .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
     .setDescription(`
-**[Remix Bot Stats](https://discord.com/api/oauth2/authorize?client_id=917819641554952262&permissions=8&scope=bot)**
+**[Remix Bot Stats](https://discord.com/api/oauth2/authorize?client_id=790583289454133278&permissions=8&scope=bot)**
 Hey My name is **Remix Bot** and My Work is to play Music
 **Owner Bot :**
 <@715564822858825750>
 ●  
 **Name Bot :**
-Remix Bot#1297
+Remix Bot#8878
 ●
 **Prefix Bot :**
 ${prefix}
@@ -221,9 +219,7 @@ ${client.guilds.cache.size}
 ●
 **Ping :**
 ${client.ws.ping}
-● 
-**Version :**
-V12
+
 `)
 
     //send the Message
@@ -252,7 +248,7 @@ V12
      const timeLeft = (expirationTime - now) / 1000;
      return message.reply(
       new MessageEmbed().setColor("#FC00FF")
-      .setTitle(`<a:halaya:813455108577689601> Please wait \`${timeLeft.toFixed(1)} seconds\` before reusing the \`${prefix}${command.name}\``)    
+      .setTitle(` Please wait \`${timeLeft.toFixed(1)} seconds\` before reusing the \`${prefix}${command.name}\``)    
      );
    }
  }
