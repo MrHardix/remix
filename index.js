@@ -37,7 +37,7 @@ client.on(`ready`, () => {
       });
       
    
-     client.user.setActivity(`${PREFIX}help Remix Bot | ${process.version}`, { type: "LISTENING"});   
+     client.user.setActivity(`${PREFIX}help Shazam Beta | ${process.version}`, { type: "LISTENING"});   
            
            
      client.user.setActivity(`${client.guilds.cache.size} | Servers`, { type: "LISTENING"});
