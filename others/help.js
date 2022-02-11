@@ -18,7 +18,7 @@ module.exports = {
     .setImage(`https://cdn.discordapp.com/attachments/832678897434230864/833341017125683200/standard_15.gif`)
     .setColor("#FC00FF")
     .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
-    .setAuthor("Shazam Beta", "https://cdn.discordapp.com/avatars/792047204361175091/c3c061050f56e58aa1f008de8b86dd26.png?size=1024")
+    .setAuthor("Music Bot", "https://cdn.discordapp.com/avatars/792047204361175091/c3c061050f56e58aa1f008de8b86dd26.png?size=1024")
     .setDescription(` 
  **| User Commands**
 > \`invite . invites . support . about   avatar . ping . prefix . uptime  . vote . se . serverinfo   servericon(icon) . userinfo(user)   emojify . emojiinfo(emoji) . social   membercount(count)\`
@@ -38,7 +38,7 @@ module.exports = {
 
 
 **| Links**
-__**[Support](https://discord.gg/geu89kZ7Rt)**__ **-** __**[Vote]()**__ **-** __**[Invite](https://discord.com/api/oauth2/authorize?client_id=790583289454133278&permissions=8&scope=bot)**__ **-** __**[Website]()**__
+__**[Support](https://discord.gg/geu89kZ7Rt)**__ **-** __**[Vote]()**__ **-** __**[Invite](https://discord.com/api/oauth2/authorize?client_id=917819704251387964&permissions=8&scope=bot)**__ **-** __**[Website]()**__
 `)
    helpEmbed
    message.react("✅")
