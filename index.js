@@ -6,7 +6,7 @@ const db = require('quick.db');
 const { TOKEN, PREFIX, AVATARURL, BOTNAME, } = require(`./config.json`);
 const figlet = require("figlet");
 const client = new Client({ disableMentions: `` , partials: ['MESSAGE', 'CHANNEL', 'REACTION'] });
-client.login('OTE3ODE5NzA0MjUxMzg3OTY0.Ya-QNQ.cbMXneLYPfd_T8w452Fb_wVN5HE');
+client.login('OTE3ODE5NjQxNTU0OTUyMjYy.Ya-QJg.-gGwTEzndKM2nh-tiny1CiPjzFE');
 client.commands = new Collection();
 client.setMaxListeners(0);    
 client.prefix = PREFIX;
@@ -37,7 +37,7 @@ client.on(`ready`, () => {
       });
       
    
-     client.user.setActivity(`${PREFIX}help Music Bot  | ${process.version}`, { type: "LISTENING"});   
+     client.user.setActivity(`${PREFIX}help Remix  | ${process.version}`, { type: "LISTENING"});   
            
            
      client.user.setActivity(`${client.guilds.cache.size} | Servers`, { type: "LISTENING"});
@@ -85,7 +85,7 @@ client.on(`message`, async (message) => {
                   .setColor("#FC00FF")
                   .setDescription(` 
 Support Server - [Click Me](https://discord.gg/ndKgf3VTY5)
-Bot Link - [Click Me](https://discord.com/api/oauth2/authorize?client_id=917819704251387964&permissions=8&scope=bot)
+Bot Link - [Click Me](https://discord.com/api/oauth2/authorize?client_id=917819641554952262&permissions=8&scope=bot)
 Bot Vote - [Click Me]()
 `) 
                   .setTitle(`
@@ -176,13 +176,13 @@ if(message.content.startsWith(`${prefix}vote`)){
     .setColor("#FC00FF")
     .setDescription (`
 
-**[Invite](https://discord.com/api/oauth2/authorize?client_id=917819704251387964&permissions=8&scope=bot)**    
+**[Invite](https://discord.com/api/oauth2/authorize?client_id=917819641554952262&permissions=8&scope=bot)**    
 **[Support](https://discord.gg/ndKgf3VTY5)**  
 **[Vote]()**
 
 `)
     .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
-    .setAuthor(`Support Remix Bot`, `https://cdn.discordapp.com/avatars/792047204361175091/c3c061050f56e58aa1f008de8b86dd26.png?size=2048`)
+    .setAuthor(`Support Remix`, `https://cdn.discordapp.com/avatars/792047204361175091/c3c061050f56e58aa1f008de8b86dd26.png?size=2048`)
     .setImage(`https://cdn.discordapp.com/attachments/795388713659269150/820761124310876160/23-51-29-image0-40.gif`)
     
     //send the Message
@@ -197,16 +197,16 @@ if(message.content.startsWith(`${prefix}vote`)){
     //define embed
     const embed = new Discord.MessageEmbed()
     .setColor("#FC00FF")
-    .setAuthor("Music Bot ✨", "https://cdn.discordapp.com/avatars/792047204361175091/c3c061050f56e58aa1f008de8b86dd26.png?size=2048")
+    .setAuthor("Mono Music", "https://cdn.discordapp.com/avatars/792047204361175091/c3c061050f56e58aa1f008de8b86dd26.png?size=2048")
     .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
     .setDescription(`
-**[Remix Bot Stats](https://discord.com/api/oauth2/authorize?client_id=917819704251387964&permissions=8&scope=bot)**
-Hey My name is **Remix Bot** and My Work is to play Music
+**[Remix Bot Stats](https://discord.com/api/oauth2/authorize?client_id=917819641554952262&permissions=8&scope=bot)**
+Hey My name is **Remix** and My Work is to play Music
 **Owner Bot :**
 <@715564822858825750>
 ●  
 **Name Bot :**
-Remix Music#7304
+Mono Music#7304
 ●
 **Prefix Bot :**
 ${prefix}
