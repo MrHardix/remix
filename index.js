@@ -6,7 +6,7 @@ const db = require('quick.db');
 const { TOKEN, PREFIX, AVATARURL, BOTNAME, } = require(`./config.json`);
 const figlet = require("figlet");
 const client = new Client({ disableMentions: `` , partials: ['MESSAGE', 'CHANNEL', 'REACTION'] });
-client.login('OTE3ODE5NjQxNTU0OTUyMjYy.Ya-QJg.dN1Qi9maI5JcOhUnZGGAVmOgPFk');
+client.login('OTE3ODE5NjQxNTU0OTUyMjYy.Ya-QJg.pji8KNG6e2A-_TeK7kkUuvgsNak');
 client.commands = new Collection();
 client.setMaxListeners(0);    
 client.prefix = PREFIX;
@@ -37,7 +37,7 @@ client.on(`ready`, () => {
       });
       
    
-     client.user.setActivity(`${PREFIX}help Remix  | ${process.version}`, { type: "LISTENING"});   
+     client.user.setActivity(`${PREFIX}help Best Remix in 2022  | ${process.version}`, { type: "LISTENING"});   
            
            
      client.user.setActivity(`${client.guilds.cache.size} | Servers`, { type: "LISTENING"});
